@@ -36,7 +36,7 @@ jobs:
 
       - name: Generate test reports
         if: always()
-        run: mvn -B -ntp surefire-report:report
+        run: mvn -B -ntp surefire-report:report site:site
 
       - name: Publish test results
         uses: dorny/test-reporter@v2
