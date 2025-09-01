@@ -1,0 +1,46 @@
+# Archivos compilados de Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Archivos de IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+*.code-workspace
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Dependencias de Node (si las hay)
+node_modules/
+npm-debug.log*
+
+# Archivos de configuración local
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Reportes de cobertura
+coverage/
+*.lcov
+
+# Archivos de backup
+*.bak
+*.orig
